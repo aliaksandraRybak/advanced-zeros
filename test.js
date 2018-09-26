@@ -159,7 +159,7 @@ describe('Zeros', () => {
   });
 
   it('32', () => {
-    const zerosCount = getZerosCount(19848293, 192);
+    const zerosCount = getZerosCount(19848293, 192);  //Число 3 в степени 9924139
     assert.equal(zerosCount, 3308046);
   });
 
@@ -494,7 +494,7 @@ describe('Zeros', () => {
   });
 
   it('99', () => {
-    const zerosCount = getZerosCount(72300914, 160);
+    const zerosCount = getZerosCount(72300914, 160);  // //получаю число 5 в степени
     assert.equal(zerosCount, 14460180);
   });
 
